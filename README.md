@@ -4,4 +4,7 @@
 For installation, please follow the instruction of [Caffe](https://github.com/BVLC/caffe).
 
 ### Usage
-
+1. Clone the respository:
+```
+git clone 
+```
