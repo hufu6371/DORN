@@ -14,4 +14,10 @@ cd $DORN_ROOT
 build pycaffe
 export PYTHONPATH=$DORN_ROOT/python:$DORN_ROOT/pylayer:$PYTHONPATH
 ```
-
+3. Download our pretrained models:
+For [KITTI]
+```
+mv DORN_KITTI_CVPR18.zip $DORN_ROOT/models
+cd $DORN_ROOT/models
+unzip DORN_KITTI_CVPR18.zip 
+```
