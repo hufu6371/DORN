@@ -18,5 +18,10 @@ export PYTHONPATH=$DORN_ROOT/python:$DORN_ROOT/pylayer:$PYTHONPATH
 ```
 mv DORN_KITTI_CVPR18.zip $DORN_ROOT/models
 cd $DORN_ROOT/models
-unzip DORN_KITTI_CVPR18.zip 
+unzip DORN_KITTI_CVPR18.zip
 ```
+4. Demo:
+For KITTI:
+```
+```
+
