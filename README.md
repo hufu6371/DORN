@@ -1,7 +1,7 @@
 # DORN: Deep Ordinal Regression Network for Monocular Depth Estimation
 
 ### Introduction
-The shared codes are the caffe implemention of our CVPR18 paper (DORN). The provided caffe is not our internal one. But one can still use it for evaluation. We provide the pretrained models for KITTI and NYUV2 here (See Tab. 3 and Tab.4 in our paper). Our method win the 1st prize on the Robust Vision Challange 2018. The codes have been tested successfully on CentOS release 6.9, Cuda 9.0.176, Tesla V100, Anaconda python 2.7, and NCCL 1.3.5. 
+The shared code is a Caffe implemention of our CVPR18 paper (DORN). The provided caffe is not our internal one. But one can still use it for evaluation. We provide the pretrained models for KITTI and NYUV2 here (See Tab. 3 and Tab.4 in our paper). Our method win the 1st prize on the Robust Vision Challange 2018. The codes have been tested successfully on CentOS release 6.9, Cuda 9.0.176, Tesla V100, Anaconda python 2.7. 
 
 ### Installation
 For installation, please follow the instruction of [Caffe](https://github.com/BVLC/caffe).
@@ -28,5 +28,9 @@ unzip DORN_KITTI_CVPR18.zip
 python demo_kitti.py --filename=./data/KITTI/demo_01.png --outputroot=./result/KITTI
 python demo_nyuv2.py --filename=./data/NYUV2/demo_01.png --outputroot=./result/NYUV2
 ```
+
+### Scores on evaluation servers
+1. [KITTI](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_prediction)
+2. [ScanNet](http://dovahkiin.stanford.edu/adai/)
 
 
