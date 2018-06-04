@@ -16,7 +16,7 @@ git clone https://github.com/hufu6371/DORN.git
 2. Build and link to pycaffe:
 ```
 cd $DORN_ROOT
-Edit Makefile.config
+edit Makefile.config
 build pycaffe
 export PYTHONPATH=$DORN_ROOT/python:$DORN_ROOT/pylayer:$PYTHONPATH
 ```
