@@ -19,17 +19,20 @@ cd $DORN_ROOT
 build pycaffe
 export PYTHONPATH=$DORN_ROOT/python:$DORN_ROOT/pylayer:$PYTHONPATH
 ```
-3. Download our pretrained models and put them in folder './models':
+3. Download our pretrained models:
 ```
-mv DORN_KITTI_CVPR18.zip $DORN_ROOT/models
-cd $DORN_ROOT/models
-unzip DORN_KITTI_CVPR18.zip
+mv kitti_cvpr18.caffemodel $DORN_ROOT/models/KITTI/
+mv nyuv2_cvpr18.caffemodel $DORN_ROOT/models/NYUV2/
 ```
 4. Demo (KITTI and NYUV2):  
 ```
 python demo_kitti.py --filename=./data/KITTI/demo_01.png --outputroot=./result/KITTI
 python demo_nyuv2.py --filename=./data/NYUV2/demo_01.png --outputroot=./result/NYUV2
 ```
+
+### Pretrained models
+1. [KITTI]()
+2. [NYUV2]()
 
 ### Scores on the evaluation servers
 1. [KITTI](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_prediction)
