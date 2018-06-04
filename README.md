@@ -6,7 +6,7 @@ The shared code is a Caffe implemention of our CVPR18 paper (DORN). The provided
 This code is only for research purposes. If you use the provided Caffe, you may also need to follow the instructions of [DeepLab v2](https://bitbucket.org/aquariusjay/deeplab-public-ver2) and [PSPNet](https://github.com/hszhao/PSPNet).
 
 ### Installation
-For installation, please follow the instruction of [Caffe](https://github.com/BVLC/caffe).
+See [Caffe](https://github.com/BVLC/caffe) for installation.
 
 ### Usage
 1. Clone the respository:
@@ -16,6 +16,7 @@ git clone https://github.com/hufu6371/DORN.git
 2. Build and link to pycaffe:
 ```
 cd $DORN_ROOT
+Edit Makefile.config
 build pycaffe
 export PYTHONPATH=$DORN_ROOT/python:$DORN_ROOT/pylayer:$PYTHONPATH
 ```
