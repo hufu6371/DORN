@@ -21,8 +21,8 @@ export PYTHONPATH=$DORN_ROOT/python:$DORN_ROOT/pylayer:$PYTHONPATH
 ```
 3. Download our pretrained models:
 ```
-mv kitti_cvpr18.caffemodel $DORN_ROOT/models/KITTI/
-mv nyuv2_cvpr18.caffemodel $DORN_ROOT/models/NYUV2/
+mv cvpr_kitti.caffemodel $DORN_ROOT/models/KITTI/
+mv cvpr_nyuv2.caffemodel $DORN_ROOT/models/NYUV2/
 ```
 4. Demo (KITTI and NYUV2):  
 ```
