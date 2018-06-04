@@ -20,12 +20,12 @@ mv DORN_KITTI_CVPR18.zip $DORN_ROOT/models
 cd $DORN_ROOT/models
 unzip DORN_KITTI_CVPR18.zip
 ```
-4. Demo:   
+4. Demo:  
 For KITTI:
 ```
 python demo_kitti.py --filename=./data/KITTI/demo_01.png --outputroot=./result/KITTI
 ```
-  For NYUV2:  
+For NYUV2:  
 ```
 python demo_nyuv2.py --filename=./data/NYUV2/demo_01.png --outputroot=./result/NYUV2
 ```
