@@ -1,9 +1,9 @@
 # DORN: Deep Ordinal Regression Network for Monocular Depth Estimation
 
 ### Paper
-```
-H. Fu, M. Gong, C. Wang, K. Batmanghelich and D. Tao: Deep Ordinal Regression Network for Monocular Depth Estimation. IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2018.
-```
+
+#### H. Fu, M. Gong, C. Wang, K. Batmanghelich and D. Tao: Deep Ordinal Regression Network for Monocular Depth Estimation. IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2018.
+
 
 ### Introduction
 The shared code is a Caffe implemention of our CVPR18 paper (DORN). The provided Caffe is not our internal one. But one can still use it for evaluation. We provide the pretrained models for KITTI and NYUV2 here (See Tab. 3 and Tab.4 in our paper).  The code has been tested successfully on CentOS release 6.9, Cuda 9.0.176, Tesla V100, Anaconda python 2.7, Cudnn 7.0. 
