@@ -49,8 +49,8 @@ python demo_nyuv2.py --filename=./data/NYUV2/demo_01.png --outputroot=./result/N
 ```
 
 ### Pretrained models
-1. [KITTI](https://drive.google.com/file/d/1twncRAsez7wqCnMTO5yZ1rHtXashu5OD/view?usp=sharing)
-2. [NYUV2](https://drive.google.com/file/d/1a1gr1VNBDRDxj2F77x-wzycQC_ZJuKxT/view?usp=sharing)
+1. [KITTI](https://drive.google.com/file/d/1hQUsVmrh142fyoHVYnN5Ry6I3lXrEgAv/view?usp=sharing)
+2. [NYUV2](https://drive.google.com/file/d/1PkxkzWwZthjnJGtaPlTS5qTrj-Tka7eX/view?usp=sharing)
 
 ### Scores on the evaluation servers
 1. [KITTI](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_prediction)
