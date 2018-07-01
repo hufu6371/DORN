@@ -8,7 +8,7 @@
 ### Introduction
 The shared code is a Caffe implemention of our CVPR18 paper (DORN). The provided Caffe is not our internal one. But one can still use it for evaluation. We provide the pretrained models for KITTI and NYUV2 here (See Tab. 3 and Tab.4 in our paper).  The code has been tested successfully on CentOS release 6.9, Cuda 9.0.176, Tesla V100, Anaconda python 2.7, Cudnn 7.0. 
 
-Our method won the 1st prize in [Robust Vision Challange 2018](http://www.robustvision.net/index.php). We achieved 1st place ranking on both [KITTI](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_prediction) and [ScanNet](http://dovahkiin.stanford.edu/adai/). 
+Our method won the 1st prize in [Robust Vision Challange 2018](http://www.robustvision.net/index.php). We achieved 1st place ranking on both [KITTI](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_prediction) and [ScanNet](http://dovahkiin.stanford.edu/adai/). Talk can be downloaded [here](https://drive.google.com/file/d/1d2b8rNk4Mxc5dBDrj8lOStKxGVwMXoq7/view?usp=sharing).
 
 KITTI
 ![KITTI](https://github.com/hufu6371/DORN/blob/master/DORN_Server_Scores/KITTI.jpeg)
