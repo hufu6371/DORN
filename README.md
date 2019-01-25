@@ -57,7 +57,7 @@ python demo_nyuv2.py --filename=./data/NYUV2/demo_01.png --outputroot=./result/N
 2. [ScanNet](http://dovahkiin.stanford.edu/adai/)
 
 ### Results on ScanNet
-The evaluation scripts for KITTI and NYU Depth v2 are contained in the zip files. You may also need download the predictions from [Eigen et al.](https://cs.nyu.edu/~deigen/depth/) for the center cropping used in our evaluation scripts.
+The evaluation scripts and the groundtruth depth maps for KITTI and NYU Depth v2 are contained in the zip files. You may also need download the predictions from [Eigen et al.](https://cs.nyu.edu/~deigen/depth/) for the center cropping used in our evaluation scripts.
 1. [ScanNet](https://drive.google.com/file/d/12EB_UrmNQZj8VvEUVVxwl1VBQFPB9hdv/view?usp=sharing)
 2. [KITTI](https://drive.google.com/open?id=18z_FpbHWmU-tX19n2FWQMwpzCmuuOsMb)
 3. [NYU Depth v2](https://drive.google.com/open?id=1uRqOkCbJLwHWyx4oz19N6MQgrOSZQo6H)
