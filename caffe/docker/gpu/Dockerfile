@@ -3,6 +3,7 @@ LABEL maintainer caffe-maint@googlegroups.com
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
         build-essential \
+        curl \
         cmake \
         git \
         wget \
@@ -30,9 +31,9 @@ WORKDIR $CAFFE_ROOT
 # FIXME: use ARG instead of ENV once DockerHub supports this
 # https://github.com/docker/hub-feedback/issues/460
 ENV CLONE_TAG=1.0
-
+RUN curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python get-pip.py
+RUN rm get-pip.py
 RUN git clone -b ${CLONE_TAG} --depth 1 https://github.com/BVLC/caffe.git . && \
-    pip install --upgrade pip && \
     cd python && for req in $(cat requirements.txt) pydot; do pip install $req; done && cd .. && \
     git clone https://github.com/NVIDIA/nccl.git && cd nccl && make -j install && cd .. && rm -rf nccl && \
     mkdir build && cd build && \
