@@ -24,7 +24,7 @@ def depth_prediction(filename):
     img = cv2.resize(img, (W, 385), interpolation=cv2.INTER_LINEAR)
     ord_score = np.zeros((385, W), dtype=np.float32)
     counts = np.zeros((385, W), dtype=np.float32)
-    for i in xrange(4):
+    for i in range(4):
         h0 = 0
         h1 = 385
         w0 = int(0 + i*256)
